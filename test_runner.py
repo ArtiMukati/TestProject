@@ -1,7 +1,7 @@
 import unittest
 
 from test_SeleniumPythonScript import LoginTest
-
+# get the Tc Logintest Class
 login_tc = unittest.TestLoader().loadTestsFromTestCase(LoginTest)
 
 # Create a test suite
